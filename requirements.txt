@@ -1,9 +1,9 @@
 ## Application specific 
-Flask
-gunicorn
+Flask==3.0.3
+gunicorn==23.0.0
 ## Data Science libraries
 tensorflow
 matplotlib
 six
-numpy
+numpy>=1.21,<2.0  # Use a compatible version range
 scikit-learn==1.1.1
